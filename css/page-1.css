@@ -1,5 +1,5 @@
 .page-1{
-    height: 83vh;
+    height: 81.5vh;
     width: 100%;
     background-color: #eeeffe;
     margin-bottom: 10px;
@@ -42,17 +42,21 @@
     text-decoration: none;
 }
 
+.page-1 .shop-link a:hover {
+    text-decoration: underline;
+}
+
 .photos {
     display: flex;
     justify-content: space-around;
-    margin-top: 50px;
-    margin-left: 80px;
-    margin-right: 80px;
+    margin-top: 40px;
+    margin-left: 180px;
+    margin-right: 180px;
 }
 
 .photos > div {
-    width: 390px;
-    height: 340px;
+    width: 280px;
+    height: 260px;
 }
 
 .photo-box1 {
