@@ -1,0 +1,79 @@
+
+.page-4{
+    display: grid;
+    grid-template-areas: 'box-1 box-2'
+    'box-3 box-4'
+    'box-5 box-6';
+    grid-row-gap: 10px;
+}
+
+
+.box {
+    width: 49vw;
+    height: 80vh;
+}
+
+.box .links a {
+    font-size: 17px;
+}
+
+.box .header a {
+    font-size: 34px;    
+}
+
+.box .header {
+    padding-top: 40px;
+}
+
+.box .subheader a {
+    font-size: 19px;
+}
+
+.box-1 {
+    background: url('../assets/tile_macbookpro__cx0ur0qg9biq_medium_2x.jpg') center/cover;
+    grid-area: box-1;
+}
+
+
+.box-2  {
+    background: url('../assets/tile_watch__e9n11b6m6yq2_medium_2x.jpg') center/cover;
+    grid-area: box-2;
+}
+
+.box-2 .header{
+    padding-top: 0px;
+}
+
+ .box-2 .sm-red-head {
+    color: #bf4800;
+    font-size: 12px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.box-2 .lg-red-head {
+    color: #bf4800;
+    font-size: 15px;
+    margin-bottom: 13px;
+    letter-spacing: 0.1rem;
+}
+
+.box-3  {
+    background: url('../assets/tile_homepod_mini__b73w4z3ljymu_medium_2x.jpg') center/cover;
+    grid-area: box-3;
+}
+
+.box-4  {
+    background: url('../assets/tile__cauwwcyyn9hy_medium_2x.jpg') center/cover;
+    grid-area: box-4;
+}
+
+.box-5  {
+    background: url('../assets/tile__cauwwcyyn9hy_medium_2x.jpg') center/cover;
+    grid-area: box-5;
+}
+
+.box-6  {
+    background: url('../assets/promo_dickinson__c9ea4l2f5rki_medium_2x.jpg') center/cover;
+    grid-area: box-6;
+}

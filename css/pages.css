@@ -1,13 +1,13 @@
 .page-1{
     height: 81.5vh;
     width: 100%;
-    background-color: #eeeffe;
+    background-color: #e9f2fc;
     margin-bottom: 10px;
 }
 
 
 
-.apple-gift-logo{
+.page-1 .apple-gift-logo{
     margin-top: 30px;
     margin-bottom: 20px;
     height: 85px;
@@ -21,32 +21,50 @@
     align-items: center;
 }
 
-.page-1 .header {
+.header a {
     font-family: 'SF Pro Display';
     font-weight:normal;
     font-size: 60px;
     width: 70%;
     text-align: center;
+    text-decoration: none;
+    color: #000;
 }
 
-.page-1 .shop-link i{
+.subheader a {
+    color: #000;
+    text-decoration: none;
+    font-family: 'SF Pro Text';
+    font-size: 28px;
+    text-align: center;
+}
+
+.links i{
     font-size: 12px;
     color: #0066cc;
     margin-left: 4px;
     margin-top: 20px;
 }
 
-.page-1 .shop-link a {
+.links a {
     font-size: 20px;
     color: #0066cc;
     text-decoration: none;
 }
 
-.page-1 .shop-link a:hover {
+ .links a:hover {
     text-decoration: underline;
 }
 
-.photos {
+.links .second{
+    margin-left: 20px;
+}
+
+.links .first{
+    margin-right: 10px;
+}
+
+.page-1 .photos {
     display: flex;
     justify-content: space-around;
     margin-top: 40px;
@@ -54,20 +72,20 @@
     margin-right: 180px;
 }
 
-.photos > div {
+.page-1 .photos > div {
     width: 280px;
     height: 260px;
 }
 
-.photo-box1 {
+.page-1 .photo-box1 {
     background: url('../assets/iphone__cyamwsdph26a_medium_2x.png')  center/cover;
 }
 
-.photo-box2 {
+.page-1 .photo-box2 {
     background: url('../assets/airpods__b0941p5gmwj6_medium_2x.png') center/cover;
 }
 
-.photo-box3 {
+.page-1 .photo-box3 {
     background: url('../assets/ipad__bq6djchifrbm_medium_2x.png') center/cover;
 }
 
